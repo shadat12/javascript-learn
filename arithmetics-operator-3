@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Javascript Practice</title>
+	</head>
+<body>
+
+<script type="text/javascript">
+	
+	var x= 4,y=5,z=6,p=7,q=8,r=10,s=11,t=13,m=14;
+	
+	var a = x++;
+	var b = ++y;
+	var c = z--;
+	var d = --p;
+	var e = q += 2;
+	var f = r -= 2;
+	var g = s *= 3;
+	var h = t /= 3;
+	var i = m %= 4;
+
+
+	console.log(a,x);
+	console.log(b,y);
+	console.log(c,z);
+	console.log(d,p);
+	console.log(e);
+	console.log(f);
+	console.log(g);
+	console.log(h);
+	console.log(m);
+	
+
+</script>
+
+
+</body>
+</html>
+
