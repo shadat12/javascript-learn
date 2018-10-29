@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Javascript Practice</title>
+	</head>
+<body>
+
+<script type="text/javascript">
+	
+	var endDays= 15;
+	var totalWorkers= 20;
+	var totalDays= 15*20;
+
+	console.log("For one worker need","totalDays","days to do the work" );
+
+</script>
+
+
+</body>
+</html>
+
