@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Javascript Practice</title>
+	</head>
+<body>
+
+<script type="text/javascript">
+	
+	var a= 4;b= 2;c= 3;
+
+	var d=(a+b+c)/3; 
+
+	console.log( typeof d, d);
+
+</script>
+
+
+</body>
+</html>
+
