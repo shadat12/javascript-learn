@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>javascript prctice Compare</title>
+</head>
+<body>
+
+<script type="text/javascript">
+
+// compare oparators == != > < >= <=
+
+var x=7;
+
+ if (x<10) {
+   console.log("This number is", x, "smaller than 10");
+ }
+ else
+ {
+	console.log("This number is", x, "greater than 10");
+ }
+
+// double compare
+ if (x<10)
+ {
+   console.log("This number is", x, "smaller than 10");
+ }
+ else if (x<20)
+ {
+	console.log("This number is", x, "smaller than 20");
+ }
+ else
+ {
+	console.log("This number is", x, "greater than 10");
+ }
+
+
+// greater /equal
+
+var a = 6;
+var b = 5;
+
+if (a>b){
+	console.log("a is greater than b");
+} else {
+	console.log("a is smaller than b");
+}
+
+// greater /equal
+
+var a = 6;
+var b = 6;
+
+if (a>b){
+	console.log("a is greater than b");
+} else if(a==b) {
+	console.log("a is equal to b");
+}else {
+	console.log("a is smaller than b");
+}
+
+
+// equal
+
+var c = 4;
+
+if (4 == c) {
+	console.log("c equal to 4");
+}
+else {
+	console.log("c not equal to 4");
+}
+
+
+
+
+// equal error
+
+/*var c = 4;
+
+if (4 = c) {
+	console.log("c equal to 4");
+}
+else {
+	console.log("c not equal to 4");
+}
+*/
+
+
+// equal defferent
+
+var d = 5;
+
+if (d=4) {
+	console.log("d equal to 4");
+}
+else {
+	console.log("d not equal to 4");
+}
+console.log(d);
+
+
+
+
+</script>
+
+</body>
+</html>
